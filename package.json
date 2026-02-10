@@ -1,0 +1,17 @@
+{
+  "name": "foodi",
+  "version": "1.0.0",
+  "description": "tailwind project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build":"tailwindcss -i ./src/style.css -o ./output/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "tailwindcss": "^4.1.18"
+  }
+}
